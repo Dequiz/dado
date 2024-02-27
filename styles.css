@@ -7,7 +7,7 @@ nav a{
     border-radius: 1rem;
 }
 body{
-    background-color: gray;
+    background-color: black;
 }
 @media screen and (max-width: 500px){
     nav a{
