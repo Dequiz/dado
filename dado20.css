@@ -47,6 +47,9 @@ nav a{
         bottom: 470px;
     }
 @media screen and (max-width: 500px){
-   
-    
+   button{
+    position:relative;
+       left:300px
+       
+   }
     }
