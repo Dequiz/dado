@@ -10,9 +10,9 @@ body{
     background-color: black;
 }
 @media screen and (max-width: 500px){
-nav a{
+   nav a{
         position: relative;
-        top: 300px;
+        top: 250px;
         left: 110px;
         display: flex;
         flex-direction: column;
