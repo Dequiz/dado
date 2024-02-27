@@ -46,3 +46,10 @@ nav a{
         position: relative;
         bottom: 470px;
     }
+@media screen and (max-width: 500px){
+   button{
+    position:relative;
+       left:600px
+       
+   }
+    }
