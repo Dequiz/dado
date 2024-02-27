@@ -59,5 +59,6 @@ h1{
     nav{
         position:absolute;
         bottom:600px;
-        left:100px
+        left:100px;
+        width:300px;
     }
