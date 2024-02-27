@@ -6,3 +6,10 @@ nav a{
     border: rgb(255, 0, 0) solid 5px;
     border-radius: 1rem;
 }
+@media screen and (max-width: 500px){
+    nav a{
+        position: relative;
+        top: 400px;
+    }
+    
+    }
