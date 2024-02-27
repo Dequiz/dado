@@ -13,7 +13,7 @@ body{
    nav a{
         position: relative;
         top: 250px;
-        left: 110px;
+        left: 120px;
         display: flex;
         flex-direction: column;
         width: 100px;
