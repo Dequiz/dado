@@ -9,7 +9,7 @@ nav a{
 @media screen and (max-width: 500px){
     nav a{
         position: relative;
-        top: 400px;
+        top: 350px;
     }
     
     }
