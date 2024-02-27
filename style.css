@@ -57,6 +57,6 @@ h1{
        
    }
     nav{
-        position:relative;
+        position:absolute;
         bottom:260px;
     }
