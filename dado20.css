@@ -51,8 +51,9 @@ h1{
 }
 @media screen and (max-width: 500px){
    button{
-    position:fixed;
-       left:600px
+    position:relative;
+       right:0px;
+       top:0px;
        
    }
     }
