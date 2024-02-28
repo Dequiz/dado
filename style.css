@@ -43,7 +43,7 @@ nav a{
     nav{
         background-color: rgb(255, 0, 0);
         padding: 2rem;
-        position: relative;
+        position: absolute;
         bottom: 470px;
     }
 h1{
