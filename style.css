@@ -43,7 +43,7 @@ nav a{
     nav{
         background-color: rgb(255, 0, 0);
         padding: 2rem;
-        position: absolute;
+        position: relative;
         bottom: 470px;
     }
 h1{
@@ -58,7 +58,7 @@ h1{
    }
     nav{
         position:absolute;
-        bottom:590px;
-        left:0px;
+        bottom:700px;
+        right:0px;
         width:350px;
     }
