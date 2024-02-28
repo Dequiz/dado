@@ -49,11 +49,16 @@ nav a{
 h1{
     width:10px:
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
    button{
     position:relative;
        right:0px;
        top:0px;
        
    }
+    nav{
+        position:absolute;
+        bottom:700px;
+        right:0px;
+        width:350px;
     }
