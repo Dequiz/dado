@@ -132,6 +132,27 @@ nav a{
     margin-bottom: 10px;
 }
 
+
+img{
+    transform: rotate(0deg);
+    transition: all 2s ease-in-out;
+}
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(1080deg);
+        }
+    }
+
+    img {
+        animation: rotate 1s linear; /* 4s para um ciclo completo de 360 graus, mas você pode ajustar conforme necessário */
+    }
+
+
+
 @media screen and (max-width: 400px){
    button{
     position:absolute;

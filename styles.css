@@ -5,10 +5,20 @@ nav a{
     padding: 1rem;
     border: rgb(255, 0, 0) solid 5px;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100px;
+    position: relative;
+    left: 600px;
+    top: 200px;
+
 }
 body{
     background-color: black;
 }
+
+
 @media screen and (max-width: 500px){
    nav a{
         position: relative;

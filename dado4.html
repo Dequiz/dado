@@ -27,7 +27,7 @@
     <a href="dado12.html">Dado 12</a>
    </nav>
     <h1 id="resultado"></h1>
-    <span id="imagem"></span>
+    <span id="dado" class="rotating-image"></span>
     <script>
         function abrirMenu(){
             document.getElementById('menu').style.right = '1130px'
@@ -41,9 +41,16 @@
         function fecharMenu2(){
             document.getElementById('menu2').style.right = '400px'
         }
+        
     </script>
     <script src="script.js"></script>
-    <button onclick="rolarDado()">Rodar Dado</button>
+    <button onclick="rolarDado(),girarImagem()">Rodar Dado</button>
+    <script>
+        function girarImagem() {
+            document.getElementById('dado').style.rotate = '1080deg'
+    
+}
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
