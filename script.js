@@ -6,27 +6,20 @@ function rolarDado(){
     document.getElementById("resultado").innerHTML = resultado.toString();
 
     if (resultado === 1) {
-        document.getElementById("dado").innerHTML = "<img src='dado1.png'>";
+        document.getElementById("dado").innerHTML = "<img src='dado1.png' class='dados'>";
     } else if (resultado === 2) {
-        document.getElementById("dado").innerHTML = "<img src='dado2.png'>";
+        document.getElementById("dado").innerHTML = "<img src='dado2.png' class='dados'>";
     } else if (resultado === 3) {
-        document.getElementById("dado").innerHTML = "<img src='dado3.png'>";
+        document.getElementById("dado").innerHTML = "<img src='dado3.png' class='dados'>";
     } else if (resultado === 4) {
-        document.getElementById("dado").innerHTML = "<img src='dado4.png'>";
+        document.getElementById("dado").innerHTML = "<img src='dado4.png' class='dados'>";
     } else if (resultado === 5) {
-        document.getElementById("dado").innerHTML = "<img src='dado5.png'>";
+        document.getElementById("dado").innerHTML = "<img src='dado5.png' class='dados'>";
     } else if (resultado === 6) {
-        document.getElementById("dado").innerHTML = "<img src='dado6.png'>";
+        document.getElementById("dado").innerHTML = "<img src='dado6.png' class='dados' >";
     }
 }
-function pararRotacao() {
-    // Seleciona o elemento com a classe 'rotating-image'
-    var dadoElement = document.querySelector('img');
-    
-    // Remove a classe 'rotating-image' para interromper a animação
-    dadoElement.classList.remove('img');
-    
-}
+
 
 
     

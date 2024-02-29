@@ -10,8 +10,8 @@
 </head>
 <body>
     <header>
-    <img src="menu.png" alt="" onclick="abrirMenu()" id="fechar">
-    <img src="menu.png" alt="" onclick="abrirMenu2()" id="open">
+    <img src="menu.png" alt="" onclick="abrirMenu()" id="fechar" class="menu">
+    <img src="menu.png" alt="" onclick="abrirMenu2()" id="open" class="menu">
     <h1>Dado 6</h1>
 </header>
    <nav id="menu">
@@ -27,7 +27,8 @@
     <a href="dado12.html">Dado 12</a>
    </nav>
     <h1 id="resultado"></h1>
-    <span id="dado" class="rotating-image"></span>
+    <span id="dado"></span>
+  
     <script>
         function abrirMenu(){
             document.getElementById('menu').style.right = '1130px'
@@ -47,7 +48,7 @@
     <button onclick="rolarDado(),girarImagem()">Rodar Dado</button>
     <script>
         function girarImagem() {
-            document.getElementById('dado').style.rotate = '1080deg'
+            document.getElementById('dado').style.transform = '1080deg'
     
 }
     </script>

@@ -78,8 +78,8 @@ nav a{
         z-index: 999;
         position: relative;
         bottom: 25px;
-        width: 150px;
-        left: 585px;
+        width: 250px;
+        left: 545px;
     }
     header{
         background-color: red;
@@ -131,6 +131,24 @@ nav a{
     width: 150px;
     margin-bottom: 10px;
 }
+#resultado{
+    display: none;
+}
+.dados{
+    position: relative;
+    bottom: 100px;
+    animation: rotate 1s ease-in-out;
+    border: none;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1080deg);
+    }
+}
+
 
 @media screen and (max-width: 400px){
    button{
@@ -146,7 +164,7 @@ nav a{
         width:350px;
     }
     header h1{
-        left: 120px;
+        left: 50px;
         bottom: 17px;
         font-weight: bold;
         width: 300px;

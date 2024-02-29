@@ -10,8 +10,6 @@ body{
 img{
     height: 200px;
     width: 200px;
-     border: solid rgb(0, 0, 0) 1px;
-    border-radius: 1rem;
     position: relative;
     bottom: 180px;
     right: 5px;
@@ -80,6 +78,7 @@ nav a{
         bottom: 25px;
         width: 150px;
         left: 585px;
+        
     }
     header{
         background-color: red;
@@ -130,6 +129,22 @@ nav a{
 #menu2 a{
     width: 150px;
     margin-bottom: 10px;
+}
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(1080deg);
+    }
+}  
+.dados{
+    animation: rotate 1s ease-in-out;
+    position: relative;
+    bottom: 100px;
+}
+#resultado{
+    display: none;
 }
 
 @media screen and (max-width: 400px){
